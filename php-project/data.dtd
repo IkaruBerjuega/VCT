@@ -1,0 +1,13 @@
+<!ELEMENT vct (team+)>
+<!ELEMENT team (logo, teamname, abbreviation, region, members)>
+<!ATTLIST team id ID #REQUIRED>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT teamname (#PCDATA)>
+<!ELEMENT abbreviation (#PCDATA)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT members (member+)>
+<!ELEMENT member (name, ign, portrait)>
+<!ATTLIST member id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT ign (#PCDATA)>
+<!ELEMENT portrait (#PCDATA)>
